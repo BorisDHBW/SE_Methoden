@@ -9,7 +9,7 @@
 
             <reviews>
                 <review>
-                    <user>Randomuser99</user>
+                    <username>Randomuser99</username>
                     <rating>3</rating>
                     <text>
                         Too hard
@@ -17,7 +17,7 @@
                 </review>
 
                 <review>
-                    <user>Otheruser10</user>
+                    <username>Otheruser10</username>
                     <rating>10</rating>
                     <text>
                         Love it
@@ -38,7 +38,7 @@
 
             <reviews>
                 <review>
-                    <user>User6</user>
+                    <username>User6</username>
                     <rating>5</rating>
                     <text>
                         boring
@@ -46,7 +46,7 @@
                 </review>
 
                 <review>
-                    <user>User1</user>
+                    <username>User1</username>
                     <rating>8</rating>
                     <text>
                         Good
@@ -63,7 +63,7 @@
 
             <reviews>
                 <review>
-                    <user>User800</user>
+                    <username>User800</username>
                     <rating>3</rating>
                     <text>
                         Bad
@@ -71,7 +71,7 @@
                 </review>
 
                 <review>
-                    <user>User5</user>
+                    <username>User5</username>
                     <rating>9</rating>
                     <text>
                         perfect

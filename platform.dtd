@@ -1,6 +1,7 @@
 <!DOCTYPE platform
 [
 <!ELEMENT platform (category*)>
+<!ATTLIST category name CDATA #REQUIRED>
 
 <!ELEMENT category (game*)>
 
