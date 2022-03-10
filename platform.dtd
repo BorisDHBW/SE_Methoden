@@ -1,0 +1,16 @@
+<!DOCTYPE platform
+[
+<!ELEMENT platform (category*)>
+
+<!ELEMENT category (game*)>
+
+<!ELEMENT game (title, publisher, reviews)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT reviews (review*)>
+
+<!ELEMENT review (username, rating, text)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+]>

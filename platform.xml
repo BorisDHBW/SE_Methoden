@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE platform SYSTEM "platform.dtd">
+<platform>
+
+    <category name = "action">
+        <game>
+            <title>Call of Duty</title>
+            <publisher>Activision</publisher>
+
+            <reviews>
+                <review>
+                    <user>Randomuser99</user>
+                    <rating>3</rating>
+                    <text>
+                        Too hard
+                    </text>
+                </review>
+
+                <review>
+                    <user>Otheruser10</user>
+                    <rating>10</rating>
+                    <text>
+                        Love it
+                    </text>
+                </review>
+
+            </reviews>
+
+        </game>
+
+    </category>
+
+    <category name = "sandbox">
+
+        <game>
+            <title>Minecraft</title>
+            <publisher>Mojang</publisher>
+
+            <reviews>
+                <review>
+                    <user>User6</user>
+                    <rating>5</rating>
+                    <text>
+                        boring
+                    </text>
+                </review>
+
+                <review>
+                    <user>User1</user>
+                    <rating>8</rating>
+                    <text>
+                        Good
+                    </text>
+                </review>
+
+            </reviews>
+
+        </game>
+
+        <game>
+            <title>Terraria</title>
+            <publisher>Re-Logic</publisher>
+
+            <reviews>
+                <review>
+                    <user>User800</user>
+                    <rating>3</rating>
+                    <text>
+                        Bad
+                    </text>
+                </review>
+
+                <review>
+                    <user>User5</user>
+                    <rating>9</rating>
+                    <text>
+                        perfect
+                    </text>
+                </review>
+
+            </reviews>
+
+        </game>
+
+    </category>
+
+</platform>
