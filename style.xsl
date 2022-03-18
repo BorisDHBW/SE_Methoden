@@ -7,7 +7,7 @@
         <h1>Shop</h1>
 
         <xsl:for-each select = "platform/category">
-          <div style="border:5px; border-style:solid; border-color:#FF0000; padding: 1em;">
+          <div style="border:5px; border-style:solid; border-color:#000000; padding: 1em; background-color:lightgray;">
             <h1>
               <xsl:value-of select = "@name"/>
             </h1>
@@ -16,12 +16,15 @@
               <div style="border:3px; border-style:solid; border-color:#0000FF; padding: 1em; background-color:gray;">
                 <h2>
                   <xsl:value-of select = "title"/>
+                  by
+                  <xsl:value-of select = "publisher"/>
                 </h2>
 
                 <table border="1">
                   <tr bgcolor="#3366ff">
                     <th style="text-align:left">username</th>
                     <th style="text-align:left">rating</th>
+                    <th style="text-align:left">text</th>
                   </tr>
                   <h3>reviews</h3>
                   <xsl:for-each select="reviews/review">
@@ -31,6 +34,9 @@
                       </td>
                       <td>
                         <xsl:value-of select="rating"/>
+                      </td>
+                      <td>
+                        <xsl:value-of select="text"/>
                       </td>
 
                     </tr>
