@@ -4,29 +4,29 @@
   <xsl:template match="/">
     <html>
       <body>
-        <h1>Shop</h1>
+        <h1 style="font-family:calibri">Shop</h1>
 
         <xsl:for-each select = "platform/category">
           <div style="border:5px; border-style:solid; border-color:#000000; padding: 1em; background-color:lightgray;">
-            <h1>
+            <h1 style="font-family:calibri">
               <xsl:value-of select = "@name"/>
             </h1>
 
             <xsl:for-each select = "game">
               <div style="border:3px; border-style:solid; border-color:#0000FF; padding: 1em; background-color:gray;">
-                <h2>
+                <h2 style="font-family:calibri">
                   <xsl:value-of select = "title"/>
                   by
                   <xsl:value-of select = "publisher"/>
                 </h2>
 
-                <table border="1">
+                <table border="1" style="font-family:calibri">
                   <tr bgcolor="#3366ff">
                     <th style="text-align:left">username</th>
                     <th style="text-align:left">rating</th>
                     <th style="text-align:left">text</th>
                   </tr>
-                  <h3>reviews</h3>
+                  <h3 style="font-family:calibri">reviews</h3>
                   <xsl:for-each select="reviews/review">
                     <tr>
                       <td>
