@@ -3,19 +3,40 @@
 <xsl:template match="/">
 <html> 
 <body>
-  <h2>My CD Collection</h2>
-  <table border="1">
-    <tr bgcolor="#9acd32">
-      <th style="text-align:left">Title</th>
-      <th style="text-align:left">Artist</th>
+  <h1>Shop</h1>
+
+  <xsl:for-each select = "platform/category">
+  <div  style="border:5px; border-style:solid; border-color:#FF0000; padding: 1em;">
+    <h1><xsl:value-of select = "@name"/></h1>
+
+    <xsl:for-each select = "game">
+    <div style="border:3px; border-style:solid; border-color:#0000FF; padding: 1em; background-color:gray;">
+    <h2><xsl:value-of select = "title"/></h2>
+
+    <table border="1">
+    <tr bgcolor="#3366ff">
+      <th style="text-align:left">username</th>
+      <th style="text-align:left">rating</th>
     </tr>
-    <xsl:for-each select="platform/category/game">
+    <h3>reviews</h3>
+    <xsl:for-each select="reviews/review">
     <tr>
-      <td><xsl:value-of select="title"/></td>
-      <td><xsl:value-of select="publisher"/></td>
+      <td><xsl:value-of select="username"/></td>
+      <td><xsl:value-of select="rating"/></td>
+
     </tr>
     </xsl:for-each>
   </table>
+  </div>
+  <p></p>
+
+  </xsl:for-each>
+  </div>
+  <p></p>
+
+  </xsl:for-each>
+
+  
 </body>
 </html>
 </xsl:template>
